@@ -4,13 +4,14 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .description {
   display: inherit;
   justify-content: inherit;
-  align-items: inherit;
+  align-items: center;
+  justify-content: space-between;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
@@ -37,6 +38,12 @@
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
+}
+
+.flex {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
 }
 
 .grid {
